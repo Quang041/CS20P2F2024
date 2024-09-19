@@ -14,7 +14,7 @@ public class Digit {
 	int tens = (digitnumber - ones)/10;
 	
 	
-	System.out.println("The tens-pace of the 2 digit-number is: " + tens);
+	System.out.println("The tens-place of the 2 digit-number is: " + tens);
 	System.out.println("The ones-place of the 2 digit-number is: " + ones);
 	
 }
