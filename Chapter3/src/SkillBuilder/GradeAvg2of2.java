@@ -1,5 +1,4 @@
 /*
-
 Program: GradeAvg2of2.java          Date: September 16, 2024
 
 Purpose: Modify the GradeAvg application to use the += operator to sum the grades as they are entered by the user. Format the average grade to display as a percentage
@@ -7,7 +6,6 @@ Purpose: Modify the GradeAvg application to use the += operator to sum the grade
 Author: Quang Nguyen, 
 School: CHHS
 Course: Computer Programming 20
- 
 */
 package SkillBuilder;
 import java.util.*;
