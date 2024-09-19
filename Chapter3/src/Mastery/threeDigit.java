@@ -23,7 +23,7 @@ public class threeDigit {
 	int tens = nhap1%10;
 	int hundreds = (nhap1-tens)/10;
 	
-	//
+	
 	
 	System.out.println("The hundreds place digit is: "+hundreds);
 	System.out.println("The tens place digit is: "+tens);
