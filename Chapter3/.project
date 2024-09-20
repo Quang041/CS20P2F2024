@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ErrorLogs/Bug Logs.pdf</name>
+			<type>1</type>
+			<location>C:/Users/1100101825/Downloads/Bug Logs.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
