@@ -20,7 +20,7 @@ public class Election {
 		int MartinezNJ = 121032;
 		int AwbreyC = 213451;
 		int MartinezC = 231034;
-		
+	
 		System.out.println("Election Results for New York: ");
 		System.out.println("Awbrey: " + AwbreyNY);
 		System.out.println("Martinez: " + MartinezNY);
