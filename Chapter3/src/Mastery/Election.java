@@ -35,7 +35,7 @@ public class Election {
 		System.out.println("Awbrey: " + AwbreyC);
 		System.out.println("Martinez: " + MartinezC);
 		System.out.println(" ");
-		
+		 
 		int TotalVote = AwbreyNY + MartinezNY + AwbreyNJ + MartinezNJ + AwbreyC + MartinezC;
 		int AwbreyTotal = AwbreyNY + AwbreyNJ + AwbreyC;
 		int MartinezTotal = MartinezNY + MartinezNJ + MartinezC;
