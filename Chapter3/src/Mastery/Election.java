@@ -42,7 +42,7 @@ public class Election {
 		
 		double AwbreyP = (double) AwbreyTotal/TotalVote *100;
 		double MartinezP = (double) MartinezTotal/TotalVote *100;
-
+ 
 		System.out.println("Candidate        Votes        Percentage");
 		System.out.println("Awbrey           "+ AwbreyTotal+"       "+nf.format(AwbreyP/0.1));
 		System.out.println("Martinez         "+MartinezTotal+"       "+nf.format(MartinezP/0.1));
