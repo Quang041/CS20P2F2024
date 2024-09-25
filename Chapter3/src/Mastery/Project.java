@@ -64,4 +64,8 @@ The percentage of time you spent on coding is:        7%
 The percentage of time you spent on debugging is:     19%
 The percentage of time you spent on testing is:       43%
 
+<<<<<<< HEAD
  */
+=======
+ */
+>>>>>>> branch 'master' of https://github.com/Quang041/CS20P2F2024.git
