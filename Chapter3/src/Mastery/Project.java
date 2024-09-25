@@ -11,7 +11,7 @@ package Mastery;
 import java.util.*;
 public class Project {
 	public static void main(String[] args) {
-		
+		NumberFormat nf = NumberFormat.getPercentInstance();
 		Scanner userinput = new Scanner (System.in);
 		System.out.print("How many minutes you spent on Designing the program: ");
 		double Designing = userinput.nextDouble();
@@ -32,10 +32,10 @@ public class Project {
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println("Task                                                  % Time");
-		System.out.println("The percentage of time you spent on designing is:     "+DesignP+"%");
-		System.out.println("The percentage of time you spent on coding is:        "+CodeP+"%");
-		System.out.println("The percentage of time you spent on debugging is:     "+DebugP+"%");
-		System.out.println("The percentage of time you spent on testing is:       "+TestP+"%");
+		System.out.println("The percentage of time you spent on designing is:     "+nf.format(PercentageDesignP/100));
+		System.out.println("The percentage of time you spent on coding is:        "+nf.format(PercentageCodeP/100));
+		System.out.println("The percentage of time you spent on debugging is:     "+nf.format(PercentageDebugP/100));
+		System.out.println("The percentage of time you spent on testing is:       "+nf.format(PercentageTestP/100));
 	}
 }
 /* Screen Dump
