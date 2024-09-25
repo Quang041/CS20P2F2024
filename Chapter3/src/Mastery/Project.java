@@ -8,6 +8,7 @@ School: CHHS
 Course: Computer Programming 20
 */
 package Mastery;
+import java.text.NumberFormat;
 import java.util.*;
 public class Project {
 	public static void main(String[] args) {
@@ -32,34 +33,35 @@ public class Project {
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println("Task                                                  % Time");
-		System.out.println("The percentage of time you spent on designing is:     "+nf.format(PercentageDesignP/100));
-		System.out.println("The percentage of time you spent on coding is:        "+nf.format(PercentageCodeP/100));
-		System.out.println("The percentage of time you spent on debugging is:     "+nf.format(PercentageDebugP/100));
-		System.out.println("The percentage of time you spent on testing is:       "+nf.format(PercentageTestP/100));
+		System.out.println("The percentage of time you spent on designing is:     "+nf.format(DesignP/100));
+		System.out.println("The percentage of time you spent on coding is:        "+nf.format(CodeP/100));
+		System.out.println("The percentage of time you spent on debugging is:     "+nf.format(DebugP/100));
+		System.out.println("The percentage of time you spent on testing is:       "+nf.format(TestP/100));
 	}
 }
 /* Screen Dump
-How many minutes you spent on Designing the program: 120
-How many minutes you spent on Coding the program: 240
-How many minutes you spent on Debugging the program: 30
-How many minutes you spent on Testing the program: 30
+How many minutes you spent on Designing the program: 34
+How many minutes you spent on Coding the program: 34
+How many minutes you spent on Debugging the program: 100
+How many minutes you spent on Testing the program: 2
  
  
 Task                                                  % Time
-The percentage of time you spent on designing is:     28.57142857142857%
-The percentage of time you spent on coding is:        57.14285714285714%
-The percentage of time you spent on debugging is:     7.142857142857142%
-The percentage of time you spent on testing is:       7.142857142857142%
+The percentage of time you spent on designing is:     20%
+The percentage of time you spent on coding is:        20%
+The percentage of time you spent on debugging is:     59%
+The percentage of time you spent on testing is:       1%
 ________________________________________________________________________
-How many minutes you spent on Designing the program: 150
-How many minutes you spent on Coding the program: 100
-How many minutes you spent on Debugging the program: 300
-How many minutes you spent on Testing the program: 200
+How many minutes you spent on Designing the program: 55
+How many minutes you spent on Coding the program: 12
+How many minutes you spent on Debugging the program: 34
+How many minutes you spent on Testing the program: 76
  
  
 Task                                                  % Time
-The percentage of time you spent on designing is:     20.0%
-The percentage of time you spent on coding is:        13.333333333333334%
-The percentage of time you spent on debugging is:     40.0%
-The percentage of time you spent on testing is:       26.666666666666668%
+The percentage of time you spent on designing is:     31%
+The percentage of time you spent on coding is:        7%
+The percentage of time you spent on debugging is:     19%
+The percentage of time you spent on testing is:       43%
+
  */
