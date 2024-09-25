@@ -47,7 +47,7 @@ public class Election {
 		System.out.println("Awbrey           "+ AwbreyTotal+"       "+nf.format(AwbreyP/0.1));
 		System.out.println("Martinez         "+MartinezTotal+"       "+nf.format(MartinezP/0.1));
 		System.out.println("TOTAL VOTES:     "+TotalVote);
-	}
+	} 
 }
 /* Screen Dump
 Election Results for New York: 
