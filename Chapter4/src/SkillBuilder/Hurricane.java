@@ -1,5 +1,4 @@
-package SkillBuilder;
-
+package SkillBuilder; 
 import java.util.*;
 
 public class Hurricane {

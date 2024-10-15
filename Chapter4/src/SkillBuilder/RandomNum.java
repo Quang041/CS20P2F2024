@@ -11,8 +11,6 @@ public class RandomNum {
 		 
 		 
 		 System.out.print("The integer value between " + minvalue + " and " + maxvalue + " is: ");
-		 System.out.print((int) ((maxvalue-minvalue+1) * Math.random() + minvalue));
-		 
-		 
+		 System.out.print((int) ((maxvalue-minvalue+1) * Math.random() + minvalue));	 
 }
 }

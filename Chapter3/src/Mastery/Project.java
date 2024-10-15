@@ -37,7 +37,7 @@ public class Project {
 		System.out.println("The percentage of time you spent on coding is:        "+nf.format(CodeP/100));
 		System.out.println("The percentage of time you spent on debugging is:     "+nf.format(DebugP/100));
 		System.out.println("The percentage of time you spent on testing is:       "+nf.format(TestP/100));
-	}
+ }
 }
 /* Screen Dump
 How many minutes you spent on Designing the program: 34
@@ -66,6 +66,5 @@ The percentage of time you spent on testing is:       43%
 
 <<<<<<< HEAD
  */
-=======
- */
->>>>>>> branch 'master' of https://github.com/Quang041/CS20P2F2024.git
+
+
