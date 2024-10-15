@@ -18,7 +18,7 @@ public class GuessingGame {
 		int UserNum = userinput.nextInt();
 		
 		int Num = (int)(20 * Math.random() + 1);
-		
+	
 		System.out.println("Computer's number: "+Num);
 		System.out.println("Player's number: "+UserNum);
 		

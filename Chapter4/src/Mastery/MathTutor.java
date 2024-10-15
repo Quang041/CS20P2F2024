@@ -53,7 +53,7 @@ public class MathTutor {
 				operator1 = "/";
 				break;			
 		}
-		
+	
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println("What is " + firstNum + " " + operator1  + " " + secondNum + " = ?");
