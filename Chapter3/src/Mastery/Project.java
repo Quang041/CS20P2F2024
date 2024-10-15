@@ -66,11 +66,17 @@ The percentage of time you spent on testing is:       43%
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 
 
 =======
+=======
+>>>>>>> branch 'master' of https://github.com/Quang041/CS20P2F2024.git
  */
 
 
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/Quang041/CS20P2F2024.git
+=======
 >>>>>>> branch 'master' of https://github.com/Quang041/CS20P2F2024.git
