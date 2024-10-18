@@ -35,5 +35,4 @@ Enter a number and the program will check if is the number is a prime number or 
 Your number is not a prime number
 _______________________________________________________________________________________
 Enter a number and the program will check if is the number is a prime number or not: 3
-Your number is a prime number
- */
+Your number is a prime number */
