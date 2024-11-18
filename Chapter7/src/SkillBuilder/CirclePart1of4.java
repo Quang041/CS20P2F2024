@@ -28,7 +28,7 @@ public class CirclePart1of4 {
 		System.out.print("Enter the radius: ");
 		CirclePart1of4 spot = new CirclePart1of4();
 		spot.setRadius(userinput.nextDouble());
-		
+		 
 		System.out.println("The radius is "+spot.getRadius());
 		System.out.println("The circumference is "+spot.Circumference());
 
