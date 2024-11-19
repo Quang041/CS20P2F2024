@@ -23,15 +23,11 @@ public class CirclePart1of4 {
 		double Circumference = 2 * PI * radius;
 		return Circumference;
 	}
-	public static void main(String[] args) {
-		Scanner userinput = new Scanner (System.in);
-		System.out.print("Enter the radius: ");
+
+	public static void main(String[] arg) {
 		CirclePart1of4 spot = new CirclePart1of4();
-		spot.setRadius(userinput.nextDouble());
-		 
+		
+		spot.setRadius(3);
 		System.out.println("The radius is "+spot.getRadius());
 		System.out.println("The circumference is "+spot.Circumference());
-
-	}
-
-}
+	}}
