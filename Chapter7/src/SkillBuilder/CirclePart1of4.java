@@ -23,7 +23,7 @@ public class CirclePart1of4 {
 		double Circumference = 2 * PI * radius;
 		return Circumference;
 	}
-
+ 
 	public static void main(String[] arg) {
 		CirclePart1of4 spot = new CirclePart1of4();
 		
