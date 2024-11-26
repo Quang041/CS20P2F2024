@@ -22,14 +22,19 @@ public class RectanglePart3of5 {
 	public double getLength() {
 		return length;
 	}
-	public boolean euquals(Object r) {
-		RectanglePart3of5 testObj = (RectanglePart3of5) r;
-		if (testObj.getLength()==length && testObj.getWidth()==width) {
-			return(true);
+	public boolean equals(Object r)
+	{
+		RectanglePart3of5 testObj = (RectanglePart3of5)r;
+		
+		if(testObj.getLength() == length && testObj.getWidth() == width)
+		{
+			return true;
 		}
-		else {
-			return(false);
-		}	
+		else
+		{
+			return false;
+		}
+		
 	}
 	public String toString() {
 		String myString;
