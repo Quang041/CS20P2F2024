@@ -6,7 +6,7 @@ public class TestDigitExtractor {
 		DigitExtractor NUM = new DigitExtractor();
 		String userChoice;
 		String quit;
-		do {
+		do {       
 		System.out.print("Enter the number: ");
 		NUM.setNumber(userinput.nextInt()); 
 		
