@@ -7,7 +7,7 @@ public class TestMySaving {
 		mySaving PiggyBank = new mySaving();
 		DecimalFormat decimalFormat = new DecimalFormat("$0.00");
 		int userChoice;
-		do {          
+		do {            
 		System.out.println("1. Show total in bank.");
 		System.out.println("2. Add a penny.");
 		System.out.println("3. Add a nickel.");
