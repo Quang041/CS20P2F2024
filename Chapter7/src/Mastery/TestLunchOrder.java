@@ -15,7 +15,7 @@ public class TestLunchOrder {
 		order.setHamburger(userinput.nextInt());
 		System.out.println("Each hamburger has 9.0g of fat, 33.0g of carbs, and 1.0g of fiber.");
 		System.out.println("  ");
-		    
+		      
 		System.out.print("Enter number of salads: ");
 		order.setSalad(userinput.nextInt());
 		System.out.println("Each salad has 1.0g of fat, 11.0g of carbs, and 5.0g of fiber.");
