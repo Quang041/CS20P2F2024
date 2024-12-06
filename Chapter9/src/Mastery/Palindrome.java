@@ -1,3 +1,12 @@
+/*
+Program: Palindrome.java          Date: December 6, 2024
+
+Purpose: Application that prompts user for a string and then displays a message indicating whether or not the string is palindrome.
+
+Author: Quang Nguyen
+School: CHHS
+Course: Computer Programming 20
+*/
 package Mastery;
 import java.util.*;
 public class Palindrome {
@@ -8,7 +17,7 @@ public class Palindrome {
 		System.out.print("Enter the string: "); //Ask user for the String input//
 		String userString = userinput.nextLine(); //Get the user String//
 		
-		userString = userString.replaceAll("\\s+", "").toUpperCase();     //Replace all the space in the string and uppercase for data to synchronous//
+		userString = userString.replaceAll("\\s+", "").toUpperCase();     //Remove all the space in the string and uppercase for data to synchronous//
 		char[] lettersInsideString = userString.toCharArray();        
 		int length = userString.length();
 		char[] lettersPalindrome = new char[length];      //Create the new array to contain all the reverse characters.//
@@ -27,7 +36,11 @@ public class Palindrome {
 			System.out.print("Your string is not palindrome. ");
 		}
 	}
-		
-	
-
 }
+/* Screen Dump
+Enter the string: today is friday
+Your string is not palindrome. 
+___________________________________________________
+Enter the string: never odd or even
+Your string is palindrome. 
+ */
