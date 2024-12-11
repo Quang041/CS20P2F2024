@@ -16,7 +16,7 @@ public class CountLetters {
 		
 		for (int i = 0; i<userString.length(); i++) {
 			char charinString = lettersInsideString[i];
-		if (charinString > 'A' && charinString < 'Z') {
+		if (charinString >= 'A' && charinString <= 'Z') {
 			int aaaaa = charinString - LOW;
 			letters[aaaaa] += 1;
 		}
