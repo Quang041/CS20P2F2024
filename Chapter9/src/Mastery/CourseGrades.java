@@ -26,7 +26,7 @@ public class CourseGrades {
 			sum += grades[stuNum - 1][i];
 		}
 		int stuAvg = sum / grades[0].length;
-		return stuAvg;
+		return stuAvg; 
 	}
 	public double testAvg(int testNum) 
 	{
