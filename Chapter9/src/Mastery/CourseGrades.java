@@ -38,7 +38,7 @@ public class CourseGrades {
 		}
 		avg = (double)sum/grades.length;
 		
-		return avg;
+		return avg; 
 	}
 	public static void main(String[] args) {
 		Scanner userinput = new Scanner(System.in);
